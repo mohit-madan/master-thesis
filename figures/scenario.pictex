@@ -1,0 +1,378 @@
+\font\thinlinefont=cmr5
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+\mbox{\beginpicture
+\setcoordinatesystem units <1.00000cm,1.00000cm>
+\unitlength=1.00000cm
+\linethickness=1pt
+\setplotsymbol ({\makebox(0,0)[l]{\tencirc\symbol{'160}}})
+\setshadesymbol ({\thinlinefont .})
+\setlinear
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\put{\makebox(0,0)[l]{\circle*{ 0.191}}} at  8.139 14.048
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\put{\makebox(0,0)[l]{\circle*{ 0.178}}} at  4.176 15.107
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\put{\makebox(0,0)[l]{\circle*{ 0.191}}} at  6.054 14.084
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\put{\makebox(0,0)[l]{\circle*{ 0.178}}} at  1.928 16.372
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\ellipticalarc axes ratio  0.097:0.097  360 degrees 
+	from  5.425 16.855 center at  5.328 16.855
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\ellipticalarc axes ratio  0.097:0.097  360 degrees 
+	from  6.217 18.343 center at  6.119 18.343
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\ellipticalarc axes ratio  0.097:0.097  360 degrees 
+	from  6.346 15.141 center at  6.248 15.141
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\setdashes < 0.1270cm>
+\ellipticalarc axes ratio  2.032:2.028  360 degrees 
+	from  9.339 16.734 center at  7.307 16.734
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\setsolid
+\ellipticalarc axes ratio  0.097:0.097  360 degrees 
+	from  8.930 18.167 center at  8.833 18.167
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\ellipticalarc axes ratio  0.097:0.097  360 degrees 
+	from  9.138 15.617 center at  9.040 15.617
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\put{\makebox(0,0)[l]{\circle*{ 0.178}}} at 10.488 16.908
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\put{\makebox(0,0)[l]{\circle*{ 0.178}}} at 12.236 16.101
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\ellipticalarc axes ratio  0.097:0.097  360 degrees 
+	from 11.714 14.313 center at 11.616 14.313
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\put{\makebox(0,0)[l]{\circle*{ 0.178}}} at 11.616 13.964
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\put{\makebox(0,0)[l]{\circle*{ 0.178}}} at  3.069 17.405
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\put{\makebox(0,0)[l]{\circle*{ 0.178}}} at  4.271 16.804
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\put{\makebox(0,0)[l]{\circle*{ 0.178}}} at 11.847 17.765
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\put{\makebox(0,0)[l]{\circle*{ 0.178}}} at 13.369 16.967
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\put{\makebox(0,0)[l]{\circle*{ 0.178}}} at 13.047 18.366
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\put{\makebox(0,0)[l]{\circle*{ 0.191}}} at  2.085 18.366
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\put{\makebox(0,0)[l]{\circle*{ 0.191}}} at  7.277 19.088
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\put{\makebox(0,0)[l]{\circle*{ 0.178}}} at  4.513 18.849
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\put{\makebox(0,0)[l]{\circle*{ 0.178}}} at 10.643 18.967
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\put{\makebox(0,0)[l]{\circle*{ 0.191}}} at  2.828 14.161
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\put{\makebox(0,0)[l]{\circle*{ 0.178}}} at  9.921 14.161
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\put{\makebox(0,0)[l]{\circle*{ 0.178}}} at 10.160 15.242
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\putrule from  7.353 16.770 to  9.286 16.770
+%
+% arrow head
+%
+\plot  9.146 16.735  9.286 16.770  9.146 16.805 /
+%
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\plot  7.353 16.770  7.353 16.770 /
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\color[rgb]{0,0,0}\putrectangle corners at  7.260 16.908 and  7.531 16.643
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\color[rgb]{0,0,0}\putrectangle corners at 11.432 15.164 and 11.697 14.895
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  7.997 18.006  7.878 17.886 /
+\putrule from  7.878 17.886 to  8.117 17.886
+\plot  8.117 17.886  7.997 18.006 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  8.719 16.684  8.598 16.563 /
+\putrule from  8.598 16.563 to  8.839 16.563
+\plot  8.839 16.563  8.719 16.684 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  7.758 16.326  7.637 16.205 /
+\putrule from  7.637 16.205 to  7.878 16.205
+\plot  7.878 16.205  7.758 16.326 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  7.156 15.242  7.036 15.121 /
+\putrule from  7.036 15.121 to  7.277 15.121
+\plot  7.277 15.121  7.156 15.242 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  6.316 16.444  6.193 16.326 /
+\putrule from  6.193 16.326 to  6.435 16.326
+\plot  6.435 16.326  6.316 16.444 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  8.297 15.665  8.177 15.545 /
+\putrule from  8.177 15.545 to  8.418 15.545
+\plot  8.418 15.545  8.297 15.665 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\color[rgb]{0,0,0}\putrectangle corners at 11.292 15.299 and 14.393 13.820
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot 11.589 14.764 11.468 14.645 /
+\putrule from 11.468 14.645 to 11.709 14.645
+\plot 11.709 14.645 11.589 14.764 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  7.040 15.932  6.919 15.811 /
+\putrule from  6.919 15.811 to  7.161 15.811
+\plot  7.161 15.811  7.040 15.932 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  7.144 18.098  7.023 17.977 /
+\putrule from  7.023 17.977 to  7.262 17.977
+\plot  7.262 17.977  7.144 18.098 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  5.874 17.304  5.753 17.183 /
+\putrule from  5.753 17.183 to  5.994 17.183
+\plot  5.994 17.183  5.874 17.304 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  6.668 17.304  6.547 17.183 /
+\putrule from  6.547 17.183 to  6.786 17.183
+\plot  6.786 17.183  6.668 17.304 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  8.890 17.462  8.771 17.342 /
+\putrule from  8.771 17.342 to  9.011 17.342
+\plot  9.011 17.342  8.890 17.462 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\color[rgb]{0,0,0}\putrectangle corners at  1.587 19.367 and 14.605 13.652
+}%
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}Tx Range}%
+} [lB] at  7.794 16.855
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{7}{8.4}{\rmdefault}{\mddefault}{\updefault}Outer Stations} [lB] at 11.966 13.957
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{7}{8.4}{\rmdefault}{\mddefault}{\updefault}Inner Stations} [lB] at 11.966 14.584
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{7}{8.4}{\rmdefault}{\mddefault}{\updefault}Boundary Stations} [lB] at 11.966 14.268
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}Central Station}%
+} [lB] at 11.999 14.912
+\linethickness=0pt
+\putrectangle corners at  1.562 19.393 and 14.630 13.627
+\endpicture}

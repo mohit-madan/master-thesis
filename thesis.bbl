@@ -1,0 +1,51 @@
+\begin{thebibliography}{10}
+
+\bibitem{love2008overview}
+D.~J. Love, R.~W. Heath, V.~K. Lau, D.~Gesbert, B.~D. Rao, and M.~Andrews,
+  ``{An overview of limited feedback in wireless communication systems},''
+  vol.~26, no.~8, 2008.
+
+\bibitem{4114278}
+J.~C. {Roh} and B.~D. {Rao}, ``Efficient feedback methods for mimo channels
+  based on parameterization,'' vol.~6, pp.~282--292, Jan 2007.
+
+\bibitem{lou2013comparison}
+H.~Lou, M.~Ghosh, P.~Xia, and R.~Olesen, ``{A comparison of implicit and
+  explicit channel feedback methods for MU-MIMO WLAN systems},'' in {\em 24th
+  Annual Intl. Symp. on Personal, Indoor, and Mobile Radio Commun. (PIMRC)},
+  pp.~419--424, IEEE, 2013.
+
+\bibitem{lloyd1982least}
+S.~Lloyd, ``{Least squares quantization in PCM},'' vol.~28, no.~2,
+  pp.~129--137, 1982.
+
+\bibitem{10.5555/1111206}
+D.~Tse and P.~Viswanath, {\em Fundamentals of Wireless Communication}.
+\newblock USA: Cambridge University Press, 2005.
+
+\bibitem{Foschini1998}
+G.~J. Foschini and M.~J. Gans, ``On limits of wireless communications in a
+  fading environment when using multiple antennas,'' {\em Wireless Personal
+  Communications}, vol.~6, pp.~311--335, Mar 1998.
+
+\bibitem{Khalighi2002}
+M.~A. Khalighi, K.~Raoof, and G.~Jourdain, ``Capacity of wireless communication
+  systems employing antenna arrays, a tutorial study,'' {\em Wireless Personal
+  Communications}, vol.~23, pp.~321--352, Dec 2002.
+
+\bibitem{6770094}
+G.~J. {Foschini}, ``Layered space-time architecture for wireless communication
+  in a fading environment when using multi-element antennas,'' {\em Bell Labs
+  Technical Journal}, vol.~1, no.~2, pp.~41--59, 1996.
+
+\bibitem{molisch2006cost259}
+A.~F. Molisch, H.~Asplund, R.~Heddergott, M.~Steinbauer, T.~Zwick, {\em
+  et~al.}, ``{The COST259 directional channel model-part I: Overview and
+  methodology},'' vol.~5, no.~12, p.~3421, 2006.
+
+\bibitem{Gupt1905:Predictive}
+A.~Gupta, K.~Appaiah, and R.~Vaze, ``Predictive quantization and joint
+  {Time-Frequency} interpolation technique for {MIMO-OFDM} precoding,'' in {\em
+  IEEE ICC'19 - WC Symposium}, (Shanghai, P.R. China), May 2019.
+
+\end{thebibliography}

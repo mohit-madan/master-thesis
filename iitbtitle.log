@@ -1,0 +1,28 @@
+This is pdfTeX, Version 3.14159-14h-released-20010417 (Web2C 7.3.3.1) (format=pdflatex 2002.6.11)  23 DEC 2002 10:39
+**iitbtitle.sty
+(./iitbtitle.sty{/usr/share/texmf/pdftex/config/pdftex.cfg}
+LaTeX2e <2000/06/01>
+Babel <v3.7h> and hyphenation patterns for american, french, german, ngerman, i
+talian, nohyphenation, loaded.
+)
+*q
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+<*> q
+     
+? X
+ 
+Here is how much of TeX's memory you used:
+ 18 strings out of 50460
+ 264 string characters out of 690585
+ 44119 words of memory out of 1500001
+ 3106 multiletter control sequences out of 10000+25000
+ 3640 words of font info for 14 fonts, out of 400000 for 1000
+ 14 hyphenation exceptions out of 10000
+ 7i,0n,6p,129b,14s stack positions out of 3000i,500n,3000p,50000b,5000s
+No pages of output.

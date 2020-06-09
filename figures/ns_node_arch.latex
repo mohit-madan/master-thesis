@@ -1,0 +1,95 @@
+\setlength{\unitlength}{3947sp}%
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+\begin{picture}(5357,5227)(114,-4507)
+\thinlines
+{\color[rgb]{0,0,0}\put(2540,-220){\line(-1, 0){1206}}
+\put(1334,-220){\line( 0,-1){2397}}
+\put(1334,-2617){\vector( 1, 0){1206}}
+}%
+{\color[rgb]{0,0,0}\put(2549,-388){\framebox(855,685){}}
+}%
+{\color[rgb]{0,0,0}\put(4602,-379){\framebox(857,684){}}
+}%
+{\color[rgb]{0,0,0}\put(3413,-54){\vector( 1, 0){1189}}
+}%
+{\color[rgb]{0,0,0}\put(2549,-1586){\framebox(855,685){}}
+}%
+{\color[rgb]{0,0,0}\put(2968,-396){\vector( 0,-1){497}}
+}%
+{\color[rgb]{0,0,0}\put(2540,-2784){\framebox(856,684){}}
+}%
+{\color[rgb]{0,0,0}\put(2549,-3981){\framebox(855,684){}}
+}%
+{\color[rgb]{0,0,0}\put(2207,-4495){\framebox(1711,163){}}
+}%
+{\color[rgb]{0,0,0}\put(2977,-1594){\vector( 0,-1){496}}
+}%
+{\color[rgb]{0,0,0}\put(2763,-2784){\vector( 0,-1){496}}
+}%
+{\color[rgb]{0,0,0}\put(3139,-3288){\vector( 0, 1){504}}
+}%
+{\color[rgb]{0,0,0}\put(3139,-4332){\vector( 0, 1){342}}
+}%
+{\color[rgb]{0,0,0}\put(2780,-3990){\vector( 0,-1){334}}
+}%
+{\color[rgb]{0,0,0}\put(3396,-2449){\line( 1, 0){513}}
+\put(3909,-2449){\line( 0, 1){2129}}
+\put(3909,-320){\vector(-1, 0){513}}
+}%
+{\color[rgb]{0,0,0}\put(126,-3985){\framebox(857,684){}}
+}%
+{\color[rgb]{0,0,0}\put(2540,-3651){\vector(-1, 0){1557}}
+}%
+{\color[rgb]{0,0,0}\put(2549,122){\vector(-1, 0){1155}}
+}%
+{\color[rgb]{0,0,0}\put(2943,708){\vector( 0,-1){402}}
+}%
+\put(1658,-2556){\makebox(0,0)[lb]{\smash{\SetFigFont{11}{13.2}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}mac\_}%
+}}}
+\put(3610, 13){\makebox(0,0)[lb]{\smash{\SetFigFont{11}{13.2}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}arptable\_}%
+}}}
+\put(2036,-714){\makebox(0,0)[lb]{\smash{\SetFigFont{11}{13.2}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}downtarget\_}%
+}}}
+\put(4090,-4486){\makebox(0,0)[lb]{\smash{\SetFigFont{11}{13.2}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}Channel}%
+}}}
+\put(2027,-1903){\makebox(0,0)[lb]{\smash{\SetFigFont{11}{13.2}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}downtarget\_}%
+}}}
+\put(3216,-3083){\makebox(0,0)[lb]{\smash{\SetFigFont{11}{13.2}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}uptarget\_}%
+}}}
+\put(1866,-3067){\makebox(0,0)[lb]{\smash{\SetFigFont{11}{13.2}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}downtarget\_}%
+}}}
+\put(1265,-3574){\makebox(0,0)[lb]{\smash{\SetFigFont{11}{13.2}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}propagation\_}%
+}}}
+\put(2121,-4256){\makebox(0,0)[lb]{\smash{\SetFigFont{11}{13.2}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}channel\_}%
+}}}
+\put(3243,-4273){\makebox(0,0)[lb]{\smash{\SetFigFont{11}{13.2}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}uptarget\_}%
+}}}
+\put(3961,-2475){\makebox(0,0)[lb]{\smash{\SetFigFont{11}{13.2}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}uptarget\_}%
+}}}
+\put(1624,185){\makebox(0,0)[lb]{\smash{\SetFigFont{11}{13.2}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}uptarget\_}%
+}}}
+\put(307,-3489){\makebox(0,0)[lb]{\smash{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}Radio}%
+}}}
+\put(289,-3848){\makebox(0,0)[lb]{\smash{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}Model}%
+}}}
+\put(3028,579){\makebox(0,0)[lb]{\smash{\SetFigFont{11}{13.2}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}target\_}%
+}}}
+\put(4825,-82){\makebox(0,0)[lb]{\smash{\SetFigFont{14}{16.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}ARP}%
+}}}
+\put(2874,-147){\makebox(0,0)[lb]{\smash{\SetFigFont{14}{16.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}LL}%
+}}}
+\put(2743,-2554){\makebox(0,0)[lb]{\smash{\SetFigFont{14}{16.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}MAC}%
+}}}
+\put(2743,-3724){\makebox(0,0)[lb]{\smash{\SetFigFont{14}{16.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}NetIF}%
+}}}
+\put(141,-3659){\makebox(0,0)[lb]{\smash{\SetFigFont{9}{10.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}Propagation}%
+}}}
+\put(2809,-1318){\makebox(0,0)[lb]{\smash{\SetFigFont{14}{16.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}IFQ}%
+}}}
+\end{picture}

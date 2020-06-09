@@ -1,0 +1,43 @@
+\setlength{\unitlength}{3947sp}%
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+\begin{picture}(2424,3771)(64,-2998)
+\thinlines
+\put( 76,227){\framebox(2400,534){}}
+\put(1462,-1265){\framebox(854,640){}}
+\put( 76,-1371){\framebox(2400,1172){}}
+\put(236,-1265){\framebox(854,640){}}
+{\color[rgb]{0,0,0}\put(1426,-2236){\framebox(975,450){}}
+}%
+\put(1876,-1371){\vector( 0, 1){  0}}
+\put(1876,-1371){\vector( 0,-1){426}}
+\put(676,-1371){\vector( 0, 1){  0}}
+\put(676,-1371){\vector( 0,-1){426}}
+{\color[rgb]{0,0,0}\put(151,-2236){\framebox(975,450){}}
+}%
+\put(1876,-2271){\vector( 0, 1){  0}}
+\put(1876,-2271){\vector( 0,-1){426}}
+\put(1276,227){\vector( 0, 1){  0}}
+\put(1276,227){\vector( 0,-1){426}}
+\put(676,-2271){\vector( 0, 1){  0}}
+\put(676,-2271){\vector( 0,-1){426}}
+{\color[rgb]{0,0,0}\put(151,-2986){\framebox(2175,300){}}
+}%
+\put(822,441){\makebox(0,0)[lb]{\smash{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}Link Layer}}}
+\put(1676,-891){\makebox(0,0)[lb]{\smash{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}PCF}}}
+\put(450,-1105){\makebox(0,0)[lb]{\smash{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}MAC}}}
+\put(1622,-1105){\makebox(0,0)[lb]{\smash{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}MAC}}}
+\put(770,-465){\makebox(0,0)[lb]{\smash{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}Dual MAC}}}
+\put(450,-891){\makebox(0,0)[lb]{\smash{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}DCF}}}
+\put(601,-2086){\makebox(0,0)[lb]{\smash{\SetFigFont{14}{16.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}Phy}%
+}}}
+\put(1651,-2086){\makebox(0,0)[lb]{\smash{\SetFigFont{14}{16.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}Phy}%
+}}}
+\put(376,-2911){\makebox(0,0)[lb]{\smash{\SetFigFont{14}{16.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}Wireless Channel}%
+}}}
+\end{picture}

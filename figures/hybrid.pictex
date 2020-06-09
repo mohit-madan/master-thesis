@@ -1,0 +1,244 @@
+\font\thinlinefont=cmr5
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+\mbox{\beginpicture
+\setcoordinatesystem units <1.00000cm,1.00000cm>
+\unitlength=1.00000cm
+\linethickness=1pt
+\setplotsymbol ({\makebox(0,0)[l]{\tencirc\symbol{'160}}})
+\setshadesymbol ({\thinlinefont .})
+\setlinear
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\setdashes < 0.1588cm>
+{\color[rgb]{0,0,0}\ellipticalarc axes ratio  2.993:2.993  360 degrees 
+	from 12.076 18.688 center at  9.083 18.688
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\setsolid
+{\color[rgb]{0,0,0}\put{\makebox(0,0)[l]{\circle*{ 0.224}}} at  7.783 21.416
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\put{\makebox(0,0)[l]{\circle*{ 0.224}}} at  6.225 17.651
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\put{\makebox(0,0)[l]{\circle*{ 0.224}}} at 11.938 19.727
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\put{\makebox(0,0)[l]{\circle*{ 0.224}}} at 11.083 16.559
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\put{\makebox(0,0)[l]{\circle*{ 0.224}}} at  8.170 19.727
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\put{\makebox(0,0)[l]{\circle*{ 0.224}}} at 10.380 17.907
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\put{\makebox(0,0)[l]{\circle*{ 0.224}}} at 10.122 20.525
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\put{\makebox(0,0)[l]{\circle*{ 0.224}}} at  8.579 16.870
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\put{\makebox(0,0)[l]{\circle*{ 0.224}}} at  7.131 18.169
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\put{\makebox(0,0)[l]{\circle*{ 0.224}}} at 11.159 19.338
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\ellipticalarc axes ratio  0.131:0.131  360 degrees 
+	from  5.963 20.375 center at  5.831 20.375
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\ellipticalarc axes ratio  0.131:0.131  360 degrees 
+	from  4.274 19.078 center at  4.142 19.078
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\ellipticalarc axes ratio  0.131:0.131  360 degrees 
+	from  4.015 20.898 center at  3.884 20.898
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\ellipticalarc axes ratio  0.131:0.131  360 degrees 
+	from  5.444 17.259 center at  5.313 17.259
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\ellipticalarc axes ratio  0.131:0.131  360 degrees 
+	from 12.203 21.548 center at 12.071 21.548
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\ellipticalarc axes ratio  0.131:0.131  360 degrees 
+	from 13.890 18.559 center at 13.758 18.559
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\ellipticalarc axes ratio  0.131:0.131  360 degrees 
+	from 14.152 20.637 center at 14.021 20.637
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\ellipticalarc axes ratio  0.131:0.131  360 degrees 
+	from 12.463 16.739 center at 12.332 16.739
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\ellipticalarc axes ratio  0.131:0.131  360 degrees 
+	from  4.403 16.220 center at  4.271 16.220
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\put{\makebox(0,0)[l]{\circle*{ 0.224}}} at 13.242 16.093
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\ellipticalarc axes ratio  0.131:0.131  360 degrees 
+	from 13.373 15.570 center at 13.242 15.570
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\ellipticalarc axes ratio  0.131:0.131  360 degrees 
+	from 15.016 17.511 center at 14.884 17.511
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\ellipticalarc axes ratio  0.131:0.131  360 degrees 
+	from 15.792 19.636 center at 15.661 19.636
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\color[rgb]{0,0,0}\putrectangle corners at  3.493 22.066 and 17.010 15.181
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\color[rgb]{0,0,0}\putrectangle corners at  8.958 18.879 and  9.265 18.574
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\color[rgb]{0,0,0}\putrectangle corners at 13.062 16.751 and 13.363 16.449
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\color[rgb]{0,0,0}\putrectangle corners at 12.907 16.904 and 16.705 15.234
+}%
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}Stations using DCF}%
+} [lB] at 13.629 15.441
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}Stations using PCF}%
+} [lB] at 13.629 15.960
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{10}{12.0}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}Central station}%
+} [lB] at 13.669 16.449
+\linethickness=0pt
+\putrectangle corners at  3.467 22.092 and 17.035 15.155
+\endpicture}

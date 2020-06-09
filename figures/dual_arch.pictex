@@ -1,0 +1,140 @@
+\font\thinlinefont=cmr5
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+\mbox{\beginpicture
+\setcoordinatesystem units <1.00000cm,1.00000cm>
+\unitlength=1.00000cm
+\linethickness=1pt
+\setplotsymbol ({\makebox(0,0)[l]{\tencirc\symbol{'160}}})
+\setshadesymbol ({\thinlinefont .})
+\setlinear
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\putrectangle corners at  0.159 26.505 and  5.239 25.375
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+%
+% arrow head
+%
+\plot  1.783 25.194  1.738 25.375  1.693 25.194 /
+%
+\putrule from  1.738 25.375 to  1.738 24.473
+%
+% arrow head
+%
+\plot  1.693 24.653  1.738 24.473  1.783 24.653 /
+%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+%
+% arrow head
+%
+\plot  3.591 25.194  3.545 25.375  3.500 25.194 /
+%
+\putrule from  3.545 25.375 to  3.545 24.473
+%
+% arrow head
+%
+\plot  3.500 24.653  3.545 24.473  3.591 24.653 /
+%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+%
+% arrow head
+%
+\plot  1.673 21.812  1.628 21.992  1.583 21.812 /
+%
+\putrule from  1.628 21.992 to  1.628 21.090
+%
+% arrow head
+%
+\plot  1.583 21.271  1.628 21.090  1.673 21.271 /
+%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+%
+% arrow head
+%
+\plot  3.591 21.812  3.545 21.992  3.500 21.812 /
+%
+\putrule from  3.545 21.992 to  3.545 21.090
+%
+% arrow head
+%
+\plot  3.500 21.271  3.545 21.090  3.591 21.271 /
+%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\putrectangle corners at  3.092 23.571 and  4.900 22.217
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\putrectangle corners at  0.159 24.473 and  5.239 21.992
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\putrectangle corners at  0.497 23.571 and  2.305 22.217
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\putrectangle corners at  0.159 21.090 and  5.239 20.426
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}Link Layer} [lB] at  1.738 25.828
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}PCF} [lB] at  3.545 23.008
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}MAC} [lB] at  0.950 22.555
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}MAC} [lB] at  3.431 22.555
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}Dual MAC} [lB] at  1.628 23.910
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}DCF} [lB] at  0.950 23.008
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}Physical Layer} [lB] at  1.270 20.637
+\linethickness=0pt
+\putrectangle corners at  0.133 26.530 and  5.264 20.400
+\endpicture}

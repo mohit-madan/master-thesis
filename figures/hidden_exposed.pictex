@@ -1,0 +1,168 @@
+\font\thinlinefont=cmr5
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+\mbox{\beginpicture
+\setcoordinatesystem units <1.00000cm,1.00000cm>
+\unitlength=1.00000cm
+\linethickness=1pt
+\setplotsymbol ({\makebox(0,0)[l]{\tencirc\symbol{'160}}})
+\setshadesymbol ({\thinlinefont .})
+\setlinear
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\ellipticalarc axes ratio  0.635:0.635  360 degrees 
+	from  5.715 19.685 center at  5.080 19.685
+}%
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{14}{16.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}B}%
+} [lB] at  4.921 19.526
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\ellipticalarc axes ratio  0.635:0.635  360 degrees 
+	from  8.255 17.780 center at  7.620 17.780
+}%
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{14}{16.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}C}%
+} [lB] at  7.461 17.621
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\ellipticalarc axes ratio  0.635:0.635  360 degrees 
+	from 12.065 18.415 center at 11.430 18.415
+}%
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{14}{16.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}D}%
+} [lB] at 11.271 18.256
+%
+% Fig CIRCULAR ARC object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\setdashes < 0.1270cm>
+{\color[rgb]{0,0,0}\circulararc 85.261 degrees from  7.144 15.873 center at  5.077 19.687
+}%
+%
+% Fig CIRCULAR ARC object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\circulararc 62.517 degrees from 11.424 14.927 center at  7.615 17.783
+}%
+%
+% Fig CIRCULAR ARC object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\circulararc 70.753 degrees from  4.604 21.114 center at  7.621 17.779
+}%
+%
+% Fig CIRCULAR ARC object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\circulararc 57.998 degrees from  5.190 16.072 center at  1.270 19.051
+}%
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\setsolid
+{\color[rgb]{0,0,0}\ellipticalarc axes ratio  0.635:0.635  360 degrees 
+	from  1.905 19.050 center at  1.270 19.050
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  7.620 17.780  3.175 16.828 /
+%
+% arrow head
+%
+\plot  3.410 16.943  3.175 16.828  3.437 16.819 /
+%
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  1.270 19.050  6.032 18.098 /
+%
+% arrow head
+%
+\plot  5.771 18.085  6.032 18.098  5.796 18.210 /
+%
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\putrule from  5.080 19.685 to  9.366 19.685
+%
+% arrow head
+%
+\plot  9.112 19.622  9.366 19.685  9.112 19.748 /
+%
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  7.620 17.780 11.748 15.558 /
+%
+% arrow head
+%
+\plot 11.494 15.622 11.748 15.558 11.554 15.734 /
+%
+}%
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{14}{16.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}Tx Range}%
+} [lB] at  3.493 17.304
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{14}{16.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}Tx Range}%
+} [lB] at  2.223 18.891
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{14}{16.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}Tx Range}%
+} [lB] at  6.985 19.844
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{14}{16.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}Tx Range}%
+} [lB] at  9.525 16.669
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{14}{16.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}A}%
+} [lB] at  1.111 18.891
+\linethickness=0pt
+\putrectangle corners at  0.618 21.448 and 12.393 14.910
+\endpicture}

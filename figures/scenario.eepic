@@ -1,0 +1,73 @@
+\setlength{\unitlength}{0.00083333in}
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+{\renewcommand{\dashlinestretch}{30}
+\begin{picture}(6879,3465)(0,-10)
+\put(2976,1789){\ellipse{3060}{3060}}
+\put(4243,918){\ellipse{148}{148}}
+\put(4089,2844){\ellipse{148}{148}}
+\put(1451,1855){\ellipse{148}{148}}
+\put(2045,2975){\ellipse{148}{148}}
+\put(2177,668){\ellipse{148}{148}}
+\put(4954,2645){\blacken\ellipse{132}{132}}
+\put(4954,2645){\ellipse{132}{132}}
+\put(5548,1723){\blacken\ellipse{132}{132}}
+\put(5548,1723){\ellipse{132}{132}}
+\put(4954,1063){\blacken\ellipse{132}{132}}
+\put(4954,1063){\ellipse{132}{132}}
+\put(5087,403){\blacken\ellipse{132}{132}}
+\put(5087,403){\ellipse{132}{132}}
+\put(602,1590){\blacken\ellipse{132}{132}}
+\put(602,1590){\ellipse{132}{132}}
+\put(997,2382){\blacken\ellipse{132}{132}}
+\put(997,2382){\ellipse{132}{132}}
+\put(469,931){\blacken\ellipse{132}{132}}
+\put(469,931){\ellipse{132}{132}}
+\put(6405,2250){\blacken\ellipse{132}{132}}
+\put(6405,2250){\ellipse{132}{132}}
+\put(74,2118){\blacken\ellipse{132}{132}}
+\put(74,2118){\ellipse{132}{132}}
+\put(3965,73){\blacken\ellipse{132}{132}}
+\put(3965,73){\ellipse{132}{132}}
+\put(734,3042){\blacken\ellipse{132}{132}}
+\put(734,3042){\ellipse{132}{132}}
+\put(6009,536){\blacken\ellipse{132}{132}}
+\put(6009,536){\ellipse{132}{132}}
+\put(1393,536){\blacken\ellipse{132}{132}}
+\put(1393,536){\ellipse{132}{132}}
+\put(74,403){\blacken\ellipse{132}{132}}
+\put(74,403){\ellipse{132}{132}}
+\put(4691,1855){\blacken\ellipse{132}{132}}
+\put(4691,1855){\ellipse{132}{132}}
+\put(5350,2250){\blacken\ellipse{132}{132}}
+\put(5350,2250){\ellipse{132}{132}}
+\put(5350,2975){\ellipse{148}{148}}
+\put(5350,2711){\blacken\ellipse{132}{132}}
+\put(5350,2711){\ellipse{132}{132}}
+\path(2976,1789)(4427,1789)
+\blacken\path(4321.480,1762.620)(4427.000,1789.000)(4321.480,1815.380)(4321.480,1762.620)
+\thicklines
+\drawline(2976,1789)(2976,1789)
+\drawline(3767,1327)(3767,1327)
+\drawline(2976,2909)(2976,2909)
+\drawline(3504,2250)(3504,2250)
+\drawline(2052,2250)(2052,2250)
+\drawline(2712,1327)(2712,1327)
+\drawline(1920,1590)(1920,1590)
+\drawline(3239,668)(3239,668)
+\drawline(2844,2250)(2844,2250)
+\drawline(5350,3239)(5350,3239)
+\thinlines
+\path(5152,3438)(6867,3438)(6867,2580)
+	(5152,2580)(5152,3438)
+\put(3305,1855){\makebox(0,0)[lb]{\smash{{{\SetFigFont{11}{13.2}{\rmdefault}{\mddefault}{\updefault}Tx Range}}}}}
+\put(5615,2909){\makebox(0,0)[lb]{\smash{{{\SetFigFont{11}{13.2}{\rmdefault}{\mddefault}{\updefault}Boundary Stations}}}}}
+\put(5615,3174){\makebox(0,0)[lb]{\smash{{{\SetFigFont{11}{13.2}{\rmdefault}{\mddefault}{\updefault}Inner Stations}}}}}
+\put(5615,2645){\makebox(0,0)[lb]{\smash{{{\SetFigFont{11}{13.2}{\rmdefault}{\mddefault}{\updefault}Outer Stations}}}}}
+\end{picture}
+}

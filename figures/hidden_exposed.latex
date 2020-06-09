@@ -1,0 +1,54 @@
+\setlength{\unitlength}{3947sp}%
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+\begin{picture}(5506,2996)(293,-4549)
+{\color[rgb]{0,0,0}\thinlines
+\put(601,-2761){\circle{600}}
+}%
+\put(526,-2836){\makebox(0,0)[lb]{\smash{\SetFigFont{14}{16.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}A}%
+}}}
+{\color[rgb]{0,0,0}\put(2401,-2461){\circle{600}}
+}%
+\put(2326,-2536){\makebox(0,0)[lb]{\smash{\SetFigFont{14}{16.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}B}%
+}}}
+{\color[rgb]{0,0,0}\put(3601,-3361){\circle{600}}
+}%
+\put(3526,-3436){\makebox(0,0)[lb]{\smash{\SetFigFont{14}{16.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}C}%
+}}}
+{\color[rgb]{0,0,0}\put(5401,-3061){\circle{600}}
+}%
+\put(5326,-3136){\makebox(0,0)[lb]{\smash{\SetFigFont{14}{16.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}D}%
+}}}
+{\color[rgb]{0,0,0}\put(2927,-2461){\oval(2998,3910)[br]}
+}%
+{\color[rgb]{0,0,0}\put(5445,-3360){\oval(692,2362)[br]}
+\put(5326,-3360){\oval(930,2698)[tr]}
+}%
+{\color[rgb]{0,0,0}\put(2026,-3608){\oval(1014,3794)[tl]}
+\put(1576,-3608){\oval(114,1306)[bl]}
+}%
+{\color[rgb]{0,0,0}\put(2543,-2752){\oval(672,2408)[br]}
+\put(2551,-2752){\oval(656,2382)[tr]}
+}%
+{\color[rgb]{0,0,0}\put(3601,-3361){\vector(-4,-1){2082.353}}
+}%
+{\color[rgb]{0,0,0}\put(601,-2761){\vector( 4,-1){2188.235}}
+}%
+{\color[rgb]{0,0,0}\put(2401,-2461){\vector( 1, 0){2025}}
+}%
+{\color[rgb]{0,0,0}\put(3601,-3361){\vector( 2,-1){1980}}
+}%
+\put(1651,-3586){\makebox(0,0)[lb]{\smash{\SetFigFont{14}{16.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}Tx Range}%
+}}}
+\put(1051,-2836){\makebox(0,0)[lb]{\smash{\SetFigFont{14}{16.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}Tx Range}%
+}}}
+\put(3301,-2386){\makebox(0,0)[lb]{\smash{\SetFigFont{14}{16.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}Tx Range}%
+}}}
+\put(4501,-3886){\makebox(0,0)[lb]{\smash{\SetFigFont{14}{16.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}Tx Range}%
+}}}
+\end{picture}

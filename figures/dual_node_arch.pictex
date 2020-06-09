@@ -1,0 +1,356 @@
+\font\thinlinefont=cmr5
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+\mbox{\beginpicture
+\setcoordinatesystem units <1.00000cm,1.00000cm>
+\unitlength=1.00000cm
+\linethickness=1pt
+\setplotsymbol ({\makebox(0,0)[l]{\tencirc\symbol{'160}}})
+\setshadesymbol ({\thinlinefont .})
+\setlinear
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\color[rgb]{0,0,0}\putrectangle corners at  5.122 25.656 and  7.008 24.145
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\color[rgb]{0,0,0}\putrectangle corners at  9.650 25.675 and 11.534 24.166
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\putrule from  7.027 24.881 to  9.650 24.881
+%
+% arrow head
+%
+\plot  9.348 24.806  9.650 24.881  9.348 24.957 /
+%
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\color[rgb]{0,0,0}\putrectangle corners at  5.122 23.017 and  7.008 21.505
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\putrule from  6.047 24.128 to  6.047 23.036
+%
+% arrow head
+%
+\plot  5.972 23.337  6.047 23.036  6.123 23.337 /
+%
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\putrule from  5.122 25.271 to  2.576 25.271
+%
+% arrow head
+%
+\plot  2.878 25.346  2.576 25.271  2.878 25.195 /
+%
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\putrule from  5.990 26.562 to  5.990 25.677
+%
+% arrow head
+%
+\plot  5.915 25.979  5.990 25.677  6.066 25.979 /
+%
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\color[rgb]{0,0,0}\putrectangle corners at  3.797 20.305 and  8.826 17.907
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\putrule from  6.098 21.463 to  6.098 20.348
+%
+% arrow head
+%
+\plot  6.023 20.649  6.098 20.348  6.174 20.649 /
+%
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\color[rgb]{0,0,0}\putrectangle corners at  4.108 19.370 and  5.785 18.148
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\color[rgb]{0,0,0}\putrectangle corners at  6.720 19.370 and  8.397 18.148
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\putrule from  5.091 24.401 to  1.977 24.401
+\putrule from  1.977 24.401 to  1.977 18.627
+\putrule from  1.977 18.627 to  3.797 18.627
+%
+% arrow head
+%
+\plot  3.606 18.579  3.797 18.627  3.606 18.675 /
+%
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\color[rgb]{0,0,0}\putrectangle corners at  5.323 16.713 and  7.209 15.208
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\color[rgb]{0,0,0}\linethickness= 0.360cm
+{\setsolid\putrule from  4.570 14.254 to  8.342 14.254 }%
+\linethickness=15pt
+\putrectangle corners at  4.570 14.434 and  8.342 14.074
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\putrule from  6.623 14.434 to  6.623 15.187
+%
+% arrow head
+%
+\plot  6.698 14.885  6.623 15.187  6.548 14.885 /
+%
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\putrule from  5.831 15.187 to  5.831 14.453
+%
+% arrow head
+%
+\plot  5.756 14.754  5.831 14.453  5.907 14.754 /
+%
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\putrule from  5.304 16.030 to  1.920 16.030
+%
+% arrow head
+%
+\plot  2.222 16.105  1.920 16.030  2.222 15.954 /
+%
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\color[rgb]{0,0,0}\putrectangle corners at  0.091 16.732 and  1.977 15.225
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\putrule from  7.942 20.320 to  7.942 24.395
+\putrule from  7.942 24.395 to  6.983 24.395
+%
+% arrow head
+%
+\plot  7.175 24.443  6.983 24.395  7.175 24.347 /
+%
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\putrule from  6.505 16.726 to  6.505 17.924
+%
+% arrow head
+%
+\plot  6.552 17.732  6.505 17.924  6.457 17.732 /
+%
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\putrule from  5.785 17.924 to  5.785 16.726
+%
+% arrow head
+%
+\plot  5.737 16.918  5.785 16.726  5.833 16.918 /
+%
+}%
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}arptable\_}%
+} [lB] at  7.461 25.030
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}downtarget\_}%
+} [lB] at  3.990 23.427
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}downtarget\_}%
+} [lB] at  3.973 20.805
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}uptarget\_}%
+} [lB] at  3.086 25.411
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}target\_}%
+} [lB] at  6.179 26.278
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{9}{10.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}PCF}%
+} [lB] at  4.515 18.771
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{9}{10.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}MAC}%
+} [lB] at  4.515 18.411
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{9}{10.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}DCF}%
+} [lB] at  7.222 18.843
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{9}{10.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}MAC}%
+} [lB] at  7.222 18.483
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}uptarget\_}%
+} [lB] at  8.257 20.839
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}mac\_}%
+} [lB] at  2.322 18.768
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}Dual Mac}%
+} [lB] at  5.353 19.734
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}Channel}%
+} [lB] at  8.721 14.095
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}propagation\_}%
+} [lB] at  2.496 16.104
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}channel\_}%
+} [lB] at  4.379 14.601
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}uptarget\_}%
+} [lB] at  6.854 14.563
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}downtarget\_}%
+} [lB] at  3.603 17.221
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}uptarget\_}%
+} [lB] at  6.794 17.187
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{9}{10.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}Propagation}%
+} [lB] at  0.277 15.886
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{9}{10.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}Radio}%
+} [lB] at  0.516 16.245
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{9}{10.8}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}Model}%
+} [lB] at  0.516 15.526
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}IFQ}%
+} [lB] at  5.785 21.999
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}ARP}%
+} [lB] at 10.097 24.754
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}LL}%
+} [lB] at  5.906 24.754
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{12}{14.4}{\rmdefault}{\mddefault}{\updefault}{\color[rgb]{0,0,0}NetIF}%
+} [lB] at  5.785 15.767
+\linethickness=0pt
+\putrectangle corners at  0.066 26.587 and 11.559 14.048
+\endpicture}
