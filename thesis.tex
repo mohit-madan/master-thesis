@@ -78,7 +78,7 @@
 %\usepackage{newcent} %the options are:  palatino, times, newcent, bookman
 
 \marginsize{1.5in}{1in}{0.75in}{0.75in}
-%\renewcommand\baselinestretch{1.5}
+% \renewcommand\baselinestretch{1}
 
 \newif\ifpdf
 \ifx\pdfoutput\undefined
@@ -97,9 +97,9 @@
         linkcolor=black,       % \ref{...} and \pageref{...}
 	citecolor=black,
         pdftitle={Dual Degree. Thesis},
-        pdfauthor={Krishna Subramani},
-        pdfsubject={Variational Parametric Models for Audio Synthesis},
-        pdfkeywords={Generative Synthesis, Parametric Models},
+        pdfauthor={Mohit Madan},
+        % pdfsubject={Variational Parametric Models for Audio Synthesis},
+        % pdfkeywords={Generative Synthesis, Parametric Models},
 %        pagebackref,
 %        pdfpagemode=true,
         bookmarksopen=true]{hyperref}
@@ -135,12 +135,12 @@
 
 
 
-\title{Variational Parametric Models for Audio Synthesis}
-\author{Mohit Madan}
-\date{2020}
+% \title{Limited CSI feedback for MIMO-OFDM channel}
+% \author{Mohit Madan}
+% \date{2020}
 
 \begin{document}
-\def\title{Title}
+\def\title{Limited CSI feedback for MIMO-OFDM channel}
 \def\what{Dissertation}
 \def\degree{Bachelor \& Master~of~Technology}
 \def\who{Mohit Madan}
@@ -268,36 +268,56 @@ obtained by precoding transmissions by Singular Value Decomposition (SVD) of the
 channel matrix~\cite{love2008overview}. However, this requires the receiver to
 feed back the unitary matrix obtained by the SVD, to the transmitter.
 
-But with increasing number of subcarriers in OFDM channels and also with 
+With increasing the number of subcarriers in OFDM channels or with 
 increasing number of antennas with MIMO, there is a need to provide
 feedback in a limited sense.
 
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.9\columnwidth]{images/drawing.pdf}
+\caption{Figure shows a $4\times2$ MIMO channel. Here $x_{i,t}$ is the input vector
+which is then precoded using $V_{i,t}$ and then sent over a channel H after
+doing necessary processing at the transmitter. It is then recovered at the receiver using
+MMSE decoding. Channel is estimated using estimation techniques and precoder is fed back to the
+transmitter. }
+\label{fig:mimo}
+\end{center}
+\end{figure}
+
 \section{Thesis Objective and Scope}
+To reduce the feedback overhead, past work taps in the inherent temporal and frequency correlations in SVD precoders, in order to perform effective quantization with just a few bits by utilizing predictive quantization \cite{Gupt1905:Predictive,6891198,7370793,sacristan2010differential,5946308,6545375,4114278,4556174}, and reducing number of fed back subcarriers by utilizing interpolation algorithms \cite{Gupt1905:Predictive,5671092,khaled2005quantized}.
+
+An underlying challenge in framing the predictive quantization and interpolation algorithms has been the high dimensional unitary structure of the SVD precoders. A large body of work utilizes the manifold geometry endowed by the unitary structure to frame such algorithms directly on the non-linear manifold ~\cite{schwarz2013adaptive,5946308,6891198,Gupt1905:Predictive,pitaval2013codebooks}. On the other hand, there are numerous works which utilize scalar parameterization of the unitary precoders, given by Givens rotations and Householder transformations \cite{4114278,4556174,lou2013comparison}. While the manifold based methods offer a clean solution and have been shown to be very effective in reducing the feedback overhead, they are analytically terse and
+involve operations over higher dimensional manifolds. The scalar parameterization algorithms enable usage of the traditional algorithms to predict, interpolate and quantize over vector spaces, and hence are analytically simpler.
+Such methods have also been implemented in 802.11 ac and ax standards
+\cite{lou2013comparison,ieee80211}. We are not aware of performance comparisons
+between these two bodies of work, thereby making it difficult to
+quantify from past work whether performance gains/losses can accrue by operating over scalar parameterization instead of manifolds.
+
 This work aims at designing a framework for an effective method for CSI quantization
 and feedback which help to realize lower BER rates and higher capacities. The scope 
 of this work is limited to effective feedback and considers all other parameters
 ideal i.e. the channel estimation at receiver is considered to be perfect. Simulations
 are performed over various practical channel models using sufficiently large amount
 of data in order to verify the claims.
-
 \section{Thesis Outline}
-Need update
+In second chapter we discuss about the channel model and performance analysis. 
+In Third Chapter we discuss about the scalar joint-time frequency interpolation
+scheme and in the fourth chapter about the capacity calculation with and 
+without channel knowledge and effect of number of transmitters on channel capacity.
+Finally, thesis ends with the conclusion and the scope of the future work.
 
-In second chapter we discuss about the channel model and the mathematical properties
-of the Givens Rotation. Third Chapter discusses about the implementation of the channel
-models and simulation results. Finally, thesis ends with the conclusion and the scope 
-of the future work.
-
-\section{TODO}
-add figures of MIMO and MIMO OFDM. Take more information from introduction and 
-explain about manifold method and how it is compared.
-Talk about how capacity is increased by using the notes from the google docs and
-the book. Site book also if necessary or try to redraw figures from there.
+% \section{TODO}
+% % add figures of MIMO and MIMO OFDM.
+% Take more information from introduction and
+% explain about manifold method and how it is compared.
+% Talk about how capacity is increased by using the notes from the google docs and
+% the book. Site book also if necessary or try to redraw figures from there.
 % Include the Bibliography .bib file here, the style can be changed as well
 
 
-\chapter{Channel Model}
-\label{chap:chanMod}
+\chapter{System Model}
+\label{chap:sysMod}
 
 \section{Channel}
 For a MIMO-OFDM system with $N_T$ transmitter and $N_R$
@@ -335,13 +355,13 @@ $\bV_{i,t}$ for each subcarrier. However, the frequency coherence and
 temporal correlations would reduce the overall feedback requirement,
 as discussed in subsequent sections.
 
-\section{Performance Analysis}
-\label{sec:cap}
-In current frequency division duplexing (FDD) MIMO systems the forward
-and reverse links generally have highly uncorrelated channels because
-they are separated in frequency.
+% \section{Performance Analysis}
+% \label{sec:cap}
+% In current frequency division duplexing (FDD) MIMO systems the forward
+% and reverse links generally have highly uncorrelated channels because
+% they are separated in frequency.
 
-\chapter{Scalar Joint-Time frequency scheme}
+\chapter{Scalar Joint-Time frequency precoder feedback scheme}
 \label{chap:scheme}
 
 \section{Scheme}
@@ -591,10 +611,10 @@ sufficiently well, as described in~\cite{4114278}, although that
 consideration was limited to tracking the temporal evolution of the
 parameters.
 
-\chapter{Variation of capacity with trasmitter Antennas}
+\chapter{Optimal power allocation in MIMO systems}
 \label{chap:cap}
 
-\section{1}
+\section{Channel Model}
 \label{sec:1}
 We consider a MIMO channel with i.i.d rayleigh fading model given as
 \begin{equation}
@@ -604,8 +624,7 @@ where H is channel matrix with shape $N_R\times N_T$ considering rayleigh flat-f
 x is the transmit vector, y is the received vector and n is baseband
 noise whose elements are zero-mean circularly-symmetric complex additive 
 white Gaussian noise (AWGN) samples with variance of $\sigma^2$.
-On keeping
-the number of receivers to a constant and varying the number of transmitter
+On keeping the number of receivers to a constant and varying the number of transmitter
 antennas, it has been shown that at high SNR, waterfilling allocates
 equal power P/$n_{min}$ to all the spatial modes, as well as equal amount
 of power over time~\cite{10.5555/1111206}.
@@ -633,6 +652,7 @@ C = \sum_{i=1}^{N}log_{2}\left(1 + \frac{\lambda_{X,i}}{\sigma^2}\lambda^{2}_{H,
 where 
 \begin{equation}
 \lambda_{X,i} = (\psi - \frac{\sigma^2}{\lambda^2_{H,i}})^{+}
+\label{eq:lambda}
 \end{equation}
 Here,
 \begin{equation}
@@ -796,9 +816,21 @@ limits on the efficacy of the proposed method in tracking the channel
 parameters.
 
 \section{Simulation 2}
-For the second scenario we consider an i.i.d Rayleigh MIMO channel with
-number of receeiver antennas, $N_R=2$.
+\subsection{Simulation Setup}
+For this scenario we consider an single user i.i.d Rayleigh MIMO channel with
+$N_T$ transmitter antennas and $N_R$ receiver antennas. To study
+the gain due to waterfilling we consider the case where $N_T=4$ 
+and $N_R=2$. In the following results capacity gain is defined as
+the percentage change in capacity of waterfilling case over non-waterfilling
+case.
 
+\subsection{Simulation Results}
+Fig. \ref{fig:ccdf} shows CCDF plots of both waterfilling (WF)
+and non-waterfilling (No-WF) scenarios at different SNRs. The plot is obtained by 
+calculating capacity for 1000 different channel reaslizations. We can see that
+with increasing SNR the gain due to WF reduces as SNR increases. This
+is observed because at high SNRs, the optimal power distribution approaches
+close to equal distribution.
 \begin{figure}
 \begin{center}
 \includegraphics[width=\imwidth\columnwidth]{images/ccdf.pdf}
@@ -809,26 +841,66 @@ without waterfilling scenarios are compared.}
 \end{center}
 \end{figure}
 
+In the following figures, capacity is calculated at $P_{out}=0.01$ (Outage Probability)
+i.e. at $CCDF=99\%$.
+In Fig.~\ref{fig:cap_gain} we can see that on increasing the number of transmitter
+antennas the Capacity Gain$\%$ reduces. For $N_T=N_R=2$, it is as high as $50\%$
+at -6dB SNR while it reduces to $20\%$ only for $N_T=6$. It reduces even further
+for higher number of transmitters. It is observed because the difference between 
+the eigen value decreases on increasing the number of transmitters which is
+equivalent of distributing equal power among the transmitters from the Eq.~\ref{eq:lambda}.
+
+In Fig.~\ref{fig:cap_vs_trans} capacity as $P_out=0.01$ is calculated for MIMO channel
+with $N_R=2$ and varying number of transmitters. On increasing the number of transmitters
+it can be seen that the difference between the capacity of WF and No-WF scenarios decreases.
+The effect is even more pronounced at higher SNR which can be seen from the explanation
+of Fig.~\ref{fig:cap_gain}.
+
 \begin{figure}
 \begin{center}
 \includegraphics[width=\imwidth\columnwidth]{images/cap_gain.pdf}
-\caption{Normalized capacity gain w.r.t no waterfilling situation 
-    at $P_{out}=0.01$}
+\caption{Normalized capacity gain w.r.t no waterfilling situation with number
+of receivers $N_R=2$ at $P_{out}=0.01$}
 \label{fig:cap_gain}
 \end{center}
 \end{figure}
-
-
 
 \begin{figure}
 \begin{center}
 \includegraphics[width=\imwidth\columnwidth]{images/cap_vs_trans.pdf}
 \caption{Variation of Capacity as a function of number of transmitters
     at $P_{out}=0.01$. Number of receivers is set constant at $N_R=2$.}
-\label{fig:cap_gain}
+\label{fig:cap_vs_trans}
 \end{center}
 \end{figure}
 
+\chapter{Conclusion and Future Work}
+\subsection{Conclusion}
+We have presented a predictive quantization based precoder
+reconstruction for MIMO-OFDM systems that employs scalar quantization
+based feedback of precoder parameters. Quantizing and adapting the
+Givens rotation and Householder transformation parameters of precoders
+minimizes receiver feedback to the transmitter while permitting
+effective precoder adaptation. Exploiting temporal and frequency
+correlations jointly enhances performance significantly. Simulations
+reveal that the proposed approach converges faster and has smaller
+errors when compared to manifold based approaches. Our feedback
+approach, with simple 2D-interpolation over the scalar parameters,
+tracks precoders effectively.
+
+We have also showed that on increasing the number of transmitters (approaching towards Massive-MIMO scenario)
+the difference between the capacities of WF and No-WF cases decreases.
+Therefore, we can say that when channel has large number of transmitters
+then precoder can be fed back to transmitter iteratively as shown in Chapter~\ref{chap:scheme}
+and there is no need to feedback the singular values because equal power 
+allocation provides similar results as compared to waterfilling.
+
+\subsection{Future Work}
+Future work would involve tuning the adaptation rates of scalar 
+parameters and further reduction of redundancies to improve quantization.
+Also currently in Massive-MIMO scenario lot of deep learning techniques have been 
+used for limited CSI feedback and quantization. Therefore those techniques
+can be studied and modified to obtain better results.
 \bibliographystyle{ieeetr}
 \bibliography{thesis}
 
