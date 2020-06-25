@@ -176,8 +176,8 @@ A lot of reasearch has been done over the years to obtain channel knowledge at
 the transmitter by using the feed back from the receiver side. 
 CSI has to be estimated at the receiver and then it is quantized and fed back 
 to the transmitter. However, due to larger number of subcarriers in case of OFDM
-systems along with increasing number of transmitter antennas, the total size of the 
-feedback becomes very large. 
+systems along with increasing number of transmitter antennas due to MIMO system, 
+the total size of the feedback becomes very large. 
 Therefore, there is a need to compress and quantize the CSI before it is fed back. 
 We propose a framework using Given's rotation for adaptive quantization and 
 feedback of channel knowledge and then compare its performance with the existing 
@@ -215,7 +215,7 @@ the number of transmitter antennas increases.
 
 % \listoffigures
 %\thispagestyle{empty} 
-\addcontentsline{toc}{chapter}{\quad\,\,{List of Figures}}
+% \addcontentsline{toc}{chapter}{\quad\,\,{List of Figures}}
 %\addtocontents{lof}{\protect\thispagestyle{empty}} 
 %\newpage
 
@@ -247,13 +247,13 @@ Multiple-Input Multiple-Output (MIMO) is a technology which uses multiple antenn
 at transmitter and receivers to increase the data rate. All wireless products using 
 the technology 802.11n and onwards use MIMO to provide higher gains.
 Multiple-Input Multiple-Output orthogonal frequency division multiplexing (MIMO-OFDM)
-is an interface which is used for 4G and 5G wireless communication. OFDM divides a 
-a frequency selective channel into a group of orthogonal flat fading sub-channels, which
+is an interface which is used for 4G and 5G wireless communication. OFDM divides 
+a frequency selective channel into a group of orthogonal flat fading sub-channels which
 provides more reliable communication at higher speeds. 
 
 The innovation that has helped to overcome the challenge of making instantaneous
 channel adaptation practical is the use of feedback of Channel State Information 
-(CSI) is known at the Transmitter (CSIT). This information provides information
+(CSI) at the Transmitter (CSIT). This information provides information
 about the forward link condition which is then used by the transmitters to 
 adapt to the forward link transmission.
 
@@ -265,12 +265,21 @@ the channel at the receiver.
 
 One key requirement to achieve the channel capacity is to leverage spacial multiplexing gains
 obtained by precoding transmissions by Singular Value Decomposition (SVD) of the MIMO
-channel matrix~\cite{love2008overview}. However, this requires the receiver to
-feed back the unitary matrix obtained by the SVD, to the transmitter.
+channel matrix~\cite{love2008overview}. 
+In TDD (time-division duplex) systems, the transmitter exploits the channel reciprocity
+and can make channel measurements on the basis of signal received from the receiver using 
+uplink. In FDD (frequency-division duplex), there is no reciprocity as uplink and 
+downlink operate on different frequencies and so the value of channel matrix
+is different for uplink and downlink. Therefore, in case of FDD, transmitter has
+to rely on the feedback from the receiver for channel information
 
-With increasing the number of subcarriers in OFDM channels or with 
-increasing number of antennas with MIMO, there is a need to provide
-feedback in a limited sense.
+
+Also the amount of feedback increases due to increased number of subcarriers (OFDM channel) 
+and also because of the increased number of antennas (MIMO). As complete
+feedback consumes too much bandwidth and degrades spectrum efficiency, therefore, 
+there is a need to provide feedback in a limited sense to reduce the amount of 
+feedback. 
+
 
 \begin{figure}
 \begin{center}
@@ -285,7 +294,8 @@ transmitter. }
 \end{figure}
 
 \section{Thesis Objective and Scope}
-To reduce the feedback overhead, past work taps in the inherent temporal and frequency correlations in SVD precoders, in order to perform effective quantization with just a few bits by utilizing predictive quantization \cite{Gupt1905:Predictive,6891198,7370793,sacristan2010differential,5946308,6545375,4114278,4556174}, and reducing number of fed back subcarriers by utilizing interpolation algorithms \cite{Gupt1905:Predictive,5671092,khaled2005quantized}.
+\subsection{Previous work and approaches}
+To reduce the feedback, past work taps in the inherent temporal and frequency correlations in SVD precoders, in order to perform effective quantization with just a few bits by utilizing predictive quantization \cite{Gupt1905:Predictive,6891198,7370793,sacristan2010differential,5946308,6545375,4114278,4556174}, and reducing number of fed back subcarriers by utilizing interpolation algorithms \cite{Gupt1905:Predictive,5671092,khaled2005quantized}.
 
 An underlying challenge in framing the predictive quantization and interpolation algorithms has been the high dimensional unitary structure of the SVD precoders. A large body of work utilizes the manifold geometry endowed by the unitary structure to frame such algorithms directly on the non-linear manifold ~\cite{schwarz2013adaptive,5946308,6891198,Gupt1905:Predictive,pitaval2013codebooks}. On the other hand, there are numerous works which utilize scalar parameterization of the unitary precoders, given by Givens rotations and Householder transformations \cite{4114278,4556174,lou2013comparison}. While the manifold based methods offer a clean solution and have been shown to be very effective in reducing the feedback overhead, they are analytically terse and
 involve operations over higher dimensional manifolds. The scalar parameterization algorithms enable usage of the traditional algorithms to predict, interpolate and quantize over vector spaces, and hence are analytically simpler.
@@ -294,15 +304,39 @@ Such methods have also been implemented in 802.11 ac and ax standards
 between these two bodies of work, thereby making it difficult to
 quantify from past work whether performance gains/losses can accrue by operating over scalar parameterization instead of manifolds.
 
+
+Past work in utilizing scalar parameterization for precoder feedback 
+have utilized adaptive delta modulation effectively track precoding 
+matrices both in the time~\cite{4114278} and frequency domains~\cite{4556174}, 
+albeit separately. Recently,~\cite{Gupt1905:Predictive} has framed an
+approach to utilize joint time-frequency correlations for predictive
+quantization and interpolation, and showed performance benefits
+compared to utilizing time-frequency correlations independently
+\cite{6891198,khaled2005quantized}.  Intuitively, these performance
+benefits arise because utilization of joint correlations not only
+exploits the existing independent correlations, but also the joint
+correlations in time-frequency arising from the underlying channels.
+
+
+\subsection{Current work}
 This work aims at designing a framework for an effective method for CSI quantization
-and feedback which help to realize lower BER rates and higher capacities. The scope 
-of this work is limited to effective feedback and considers all other parameters
-ideal i.e. the channel estimation at receiver is considered to be perfect. Simulations
-are performed over various practical channel models using sufficiently large amount
-of data in order to verify the claims.
+and feedback which help to realize lower BER rates and higher capacities.  
+Here we propose a joint time-frequency interpolation approach that builds 
+upon the existing parametric quantization techniques. One of the key results of 
+our work is that the proposed scalar parameterization method actually outperforms 
+an equivalent manifold based technique \cite{Gupt1905:Predictive}, at the same 
+time being analytically more tractable. With smaller quantization error as compared 
+to manifold based approaches, the feedback results in more accurate precoder tracking, 
+along with simple 2D-interpolation over the scalar parameters to optimize the precoders.
+The scope of this work is limited to effective feedback and considers all other parameters
+ideal i.e. the channel estimation at receiver is considered to be perfect.
+Simulations are performed over COST 207-RA channel model using sufficiently 
+large amount of data in order to verify the claims.
+
+
 \section{Thesis Outline}
-In second chapter we discuss about the channel model and performance analysis. 
-In Third Chapter we discuss about the scalar joint-time frequency interpolation
+In second chapter we discuss about the system model and performance analysis. 
+In the third chapter we discuss about the scalar joint-time frequency interpolation
 scheme and in the fourth chapter about the capacity calculation with and 
 without channel knowledge and effect of number of transmitters on channel capacity.
 Finally, thesis ends with the conclusion and the scope of the future work.
@@ -611,10 +645,10 @@ sufficiently well, as described in~\cite{4114278}, although that
 consideration was limited to tracking the temporal evolution of the
 parameters.
 
-\chapter{Optimal power allocation in MIMO systems}
-\label{chap:cap}
+\section{Optimal power allocation in MIMO systems}
+% \label{chap:cap}
 
-\section{Channel Model}
+\subsection{System Model}
 \label{sec:1}
 We consider a MIMO channel with i.i.d rayleigh fading model given as
 \begin{equation}
@@ -894,6 +928,8 @@ Therefore, we can say that when channel has large number of transmitters
 then precoder can be fed back to transmitter iteratively as shown in Chapter~\ref{chap:scheme}
 and there is no need to feedback the singular values because equal power 
 allocation provides similar results as compared to waterfilling.
+
+Also this work has been accepted in IEEE Wireless Communications Letter 2020~\cite{9099894}.
 
 \subsection{Future Work}
 Future work would involve tuning the adaptation rates of scalar 
